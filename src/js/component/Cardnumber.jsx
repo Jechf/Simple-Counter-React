@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from "prop-types";
-
+import "../../styles/index.css"
 
 export const Cardnumber = (props) => {
   return (
-        <div className="card">
+        <div className="container" id="number">
             <div className="card-body">
                 <h4>{props.unit}</h4>
             </div>
